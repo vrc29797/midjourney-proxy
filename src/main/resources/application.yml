@@ -6,7 +6,7 @@ mj:
     session-id: 2fb980f65e5c9a77c96ca01f2c242cf6
     user-agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36
     user-wss: true
-    bot-token: xxx
+    bot-token: xxxx
   task-store:
     type: in_memory
     timeout: 30d
