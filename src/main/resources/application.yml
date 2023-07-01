@@ -1,11 +1,12 @@
 mj:
   discord:
-    guild-id: xxx
-    channel-id: xxx
-    user-token: xxx
-    session-id: 9c4055428e13bcbf2248a6b36084c5f3
-    user-agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36
+    guild-id: 1123587201805062216
+    channel-id: 1123587201805062219
+    user-token: MTEyMzU3NzcyNjY0NTgzNzkyNA.GQrHJT.iwBfdupupy6IuyMPTj9i_Y8KLZ8rBNDTwQmQ1I
+    session-id: 2fb980f65e5c9a77c96ca01f2c242cf6
+    user-agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36
     user-wss: true
+    bot-token: MTEyMzYyMzcyNDU3NTM2MzIxMg.Gg8SZS.dicSEtpxJynvdDW8EBu6S57COtFQPsYabFLLgg
   task-store:
     type: in_memory
     timeout: 30d
