@@ -21,11 +21,12 @@ public class ProxyApplication {
 
     @Bean
     public WebMvcConfigurer corsConfigurer() {
+        System.out.print("Inside corsConfigurer");
         return new WebMvcConfigurer() {
             @Override
             public void addCorsMappings(CorsRegistry registry) {
                 registry.addMapping("/**")
-                        .allowedOrigins("https://99c2c9.myshopify.com")
+                        .allowedOrigins("*")
                         .allowedHeaders("*")
                         .allowedMethods("*")
                         .allowedOriginPatterns("*")
