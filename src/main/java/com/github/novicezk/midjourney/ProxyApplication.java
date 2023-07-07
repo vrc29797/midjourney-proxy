@@ -24,7 +24,11 @@ public class ProxyApplication {
 		return new WebMvcConfigurer() {
 			@Override
 			public void addCorsMappings(CorsRegistry registry) {
-				registry.addMapping("/**").allowedOrigins("https://99c2c9.myshopify.com");
+				registry.addMapping("/*")
+						.allowedOrigins("*")
+						.allowedHeaders("*")
+						.allowedMethods("*")
+						;
 			}
 		};
 	}
