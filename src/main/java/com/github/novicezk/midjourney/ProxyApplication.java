@@ -28,7 +28,7 @@ public class ProxyApplication {
 						.allowedOrigins("*")
 						.allowedHeaders("*")
 						.allowedMethods("*")
-						;
+						.allowedOriginPatterns("*");
 			}
 		};
 	}
