@@ -32,6 +32,7 @@ public class WebMvcConfig implements WebMvcConfigurer {
     }
 
     public void addCorsMappings(CorsRegistry registry) {
+        System.out.println("Inside WebMvcConfig");
         registry.addMapping("/**")
                 .allowedMethods("*")
                 .allowedHeaders("*")
