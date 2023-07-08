@@ -26,7 +26,7 @@ public class ProxyApplication {
             @Override
             public void addCorsMappings(CorsRegistry registry) {
                 registry.addMapping("/**")
-//                        .allowedOrigins("*")
+                        .allowedOrigins("https://99c2c9.myshopify.com/")
                         .allowedHeaders("*")
                         .allowedMethods("*")
                         .allowedOriginPatterns("*")
