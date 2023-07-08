@@ -28,9 +28,9 @@ public class ProxyApplication {
                 registry.addMapping("/**")
                         .allowedOrigins("https://99c2c9.myshopify.com/")
                         .allowedHeaders("*")
-                        .allowedMethods("*")
-                        .allowedOriginPatterns("*")
-                        .allowCredentials(true);
+                        .allowedMethods("POST","GET","OPTIONS");
+//                        .allowedOriginPatterns("*")
+//                        .allowCredentials(true);
             }
         };
     }
