@@ -25,10 +25,9 @@ public class ProxyApplication {
 
     @Bean
     public CorsFilter corsFilter() {
-        System.out.println("Inside ProxyApplication");
         CorsConfiguration corsConfiguration = new CorsConfiguration();
         corsConfiguration.setAllowCredentials(true);
-        corsConfiguration.setAllowedOrigins(List.of("https://99c2c9.myshopify.com"));
+        corsConfiguration.setAllowedOrigins(List.of("https://99c2c9.myshopify.com", "https://allyours.store"));
         corsConfiguration.setAllowedHeaders(Arrays.asList("Origin", "Access-Control-Allow-Origin", "Content-Type",
                 "Accept", "Authorization", "Origin, Accept", "X-Requested-With",
                 "Access-Control-Request-Method", "Access-Control-Request-Headers", "mj-api-secret"));
